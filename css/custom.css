@@ -1,6 +1,22 @@
 body {
   padding-top: 40px;
-  background-color: #eee;
+  background-color: #fff;
+}
+
+.btn-primary {
+  background-color: rgb(204, 11, 22);
+  border-color: rgb(234, 41, 52);
+  color: rgb(243, 222, 153);
+}
+
+.btn-primary:hover {
+  background-color: rgb(214, 21, 32);
+  border-color: rgb(244, 51, 62);
+  color: rgb(243, 222, 153);
+}
+
+a {
+  color: rgb(204, 11, 22);
 }
 
 #start, #yes, #no {
