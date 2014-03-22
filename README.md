@@ -1,4 +1,4 @@
-# Can I Chat
+# Can I Cheat
 
 This app decides for you if you can cheat on your diet/exercise/whatever plan or not.
 
