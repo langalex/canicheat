@@ -3,6 +3,10 @@ $(function() {
 
   var $sections = $('#start, #yes, #no');
 
+  window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+  }, false);
+
   $('a').on('click', function(e) {
     e.preventDefault();
   });
