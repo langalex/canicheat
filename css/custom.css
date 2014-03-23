@@ -1,6 +1,29 @@
 body {
-  padding-top: 40px;
   background-color: #fff;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flex-container .padding {
+  flex: 1;
+}
+
+.flex-container .main {
+  font-size: 36px;
+}
+
+.flex-container footer {
+  padding-bottom: 2em;
 }
 
 .btn-primary {

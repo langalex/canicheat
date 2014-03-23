@@ -1,7 +1,8 @@
 $(function() {
   'use strict';
 
-  var $sections = $('#start, #yes, #no');
+  var $sections = $('#start, #yes, #no'),
+    $backButton = $('.goback');
 
   window.addEventListener('load', function() {
     FastClick.attach(document.body);
@@ -38,5 +39,10 @@ $(function() {
   function showSection(name) {
     $sections.addClass('hidden');
     $('#' + name).removeClass('hidden');
+    if(name === 'start') {
+      $backButton.css('visibility', 'hidden');
+    } else {
+      $backButton.css('visibility', 'visible');
+    }
   }
 });
