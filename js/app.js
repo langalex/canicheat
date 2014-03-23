@@ -28,7 +28,7 @@ $(function() {
       var now = new Date().getTime();
 
       if(nextCheatAt < now) {
-        var offset = 9 - Math.round(Math.random() * 4); // between 5 and 9 days
+        var offset = Math.round(Math.random() * 10); // some time in the next 10 days
         window.localStorage.setItem('nextCheatAt', now + offset * day);
       }
       return nextCheatAt < now;
