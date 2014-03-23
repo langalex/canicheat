@@ -8,6 +8,10 @@ body {
 }
 
 .flex-container {
+  display: -webkit-flex;
+  -webkit-flex-flow: column;
+  -webkit-align-items: center;
+
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -16,6 +20,7 @@ body {
 
 .flex-container .padding {
   flex: 1;
+  -webkit-flex: 1;
 }
 
 .flex-container .main {
@@ -40,8 +45,4 @@ body {
 
 a {
   color: rgb(204, 11, 22);
-}
-
-#start, #yes, #no {
-  text-align: center;
 }
